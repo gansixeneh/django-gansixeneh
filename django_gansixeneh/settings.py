@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(%f30&+$ln5+8=ho4!@+q7-ng23+t#2hcuy7061wolhj558^8@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -126,8 +126,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 import os
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
-
-```
-ALLOWED_HOSTS = ["*"]
-```
 
